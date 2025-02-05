@@ -1,0 +1,23 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.movie-card {
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.search-box {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 2rem;
+}
+/* body{
+  background-color: black;
+  color: aliceblue;
+} */
